@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self createUI];
+    NSLog(@"lzc");
 }
 
 - (void)createUI
