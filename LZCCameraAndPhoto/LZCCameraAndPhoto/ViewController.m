@@ -29,13 +29,14 @@
 
 - (void)createUI
 {
+    //选择照片
     UIButton *cameraBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     cameraBtn.frame = CGRectMake(100*ScreenX, 100*ScreenY, 175*ScreenX, 40*ScreenY);
     [cameraBtn setTitle:@"选择照片" forState:UIControlStateNormal];
     [cameraBtn addTarget:self action:@selector(cameraBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview: cameraBtn];
     
-    
+    //展示照片
     _imageMain = [[UIImageView alloc]initWithFrame:CGRectMake(100*ScreenX, 200*ScreenY, 175*ScreenX, 175*ScreenY)];
     [self.view addSubview:self.imageMain];
 
