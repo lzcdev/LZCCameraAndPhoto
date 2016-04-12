@@ -48,7 +48,6 @@
         self.actionSheet = [[UIActionSheet alloc] initWithTitle:@"选择图像" delegate:self cancelButtonTitle:@"取消"destructiveButtonTitle:nil otherButtonTitles:@"从相册选择", nil];
     }
     [self.actionSheet showInView:self.view];
-
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
@@ -85,14 +84,12 @@
     [self presentViewController:imagePickerController animated:YES completion:^{
         
     }];
-    
 }
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     [picker dismissViewControllerAnimated:YES completion:^{
         
     }];
-
     //赋值
     _imageMain.image = [info objectForKey:UIImagePickerControllerOriginalImage];
 
