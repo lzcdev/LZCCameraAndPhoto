@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7C80541CBCD9900007BCF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C80531CBCD9900007BCF4 /* main.m */; };
+		2A7C80571CBCD9900007BCF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C80561CBCD9900007BCF4 /* AppDelegate.m */; };
+		2A7C805A1CBCD9900007BCF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C80591CBCD9900007BCF4 /* ViewController.m */; };
+		2A7C805D1CBCD9900007BCF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C805B1CBCD9900007BCF4 /* Main.storyboard */; };
+		2A7C805F1CBCD9900007BCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C805E1CBCD9900007BCF4 /* Assets.xcassets */; };
+		2A7C80621CBCD9900007BCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7C80601CBCD9900007BCF4 /* LaunchScreen.storyboard */; };
+		2A7C806D1CBCD9900007BCF4 /* LZCCameraAndPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C806C1CBCD9900007BCF4 /* LZCCameraAndPhotoTests.m */; };
+		2A7C80781CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7C80771CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7C80691CBCD9900007BCF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7C80471CBCD98F0007BCF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7C804E1CBCD9900007BCF4;
+			remoteInfo = LZCCameraAndPhoto;
+		};
+		2A7C80741CBCD9910007BCF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7C80471CBCD98F0007BCF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7C804E1CBCD9900007BCF4;
+			remoteInfo = LZCCameraAndPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A7C804F1CBCD9900007BCF4 /* LZCCameraAndPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCCameraAndPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7C80531CBCD9900007BCF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A7C80551CBCD9900007BCF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A7C80561CBCD9900007BCF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A7C80581CBCD9900007BCF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A7C80591CBCD9900007BCF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A7C805C1CBCD9900007BCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A7C805E1CBCD9900007BCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7C80611CBCD9900007BCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A7C80631CBCD9900007BCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7C80681CBCD9900007BCF4 /* LZCCameraAndPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCCameraAndPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7C806C1CBCD9900007BCF4 /* LZCCameraAndPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCCameraAndPhotoTests.m; sourceTree = "<group>"; };
+		2A7C806E1CBCD9900007BCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7C80731CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZCCameraAndPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7C80771CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCCameraAndPhotoUITests.m; sourceTree = "<group>"; };
+		2A7C80791CBCD9910007BCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7C804C1CBCD9900007BCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C80651CBCD9900007BCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C80701CBCD9900007BCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7C80461CBCD98F0007BCF4 = {
+			isa = PBXGroup;
+			children = (
+				2A7C80511CBCD9900007BCF4 /* LZCCameraAndPhoto */,
+				2A7C806B1CBCD9900007BCF4 /* LZCCameraAndPhotoTests */,
+				2A7C80761CBCD9910007BCF4 /* LZCCameraAndPhotoUITests */,
+				2A7C80501CBCD9900007BCF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7C80501CBCD9900007BCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C804F1CBCD9900007BCF4 /* LZCCameraAndPhoto.app */,
+				2A7C80681CBCD9900007BCF4 /* LZCCameraAndPhotoTests.xctest */,
+				2A7C80731CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7C80511CBCD9900007BCF4 /* LZCCameraAndPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C80551CBCD9900007BCF4 /* AppDelegate.h */,
+				2A7C80561CBCD9900007BCF4 /* AppDelegate.m */,
+				2A7C80581CBCD9900007BCF4 /* ViewController.h */,
+				2A7C80591CBCD9900007BCF4 /* ViewController.m */,
+				2A7C805B1CBCD9900007BCF4 /* Main.storyboard */,
+				2A7C805E1CBCD9900007BCF4 /* Assets.xcassets */,
+				2A7C80601CBCD9900007BCF4 /* LaunchScreen.storyboard */,
+				2A7C80631CBCD9900007BCF4 /* Info.plist */,
+				2A7C80521CBCD9900007BCF4 /* Supporting Files */,
+			);
+			path = LZCCameraAndPhoto;
+			sourceTree = "<group>";
+		};
+		2A7C80521CBCD9900007BCF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C80531CBCD9900007BCF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A7C806B1CBCD9900007BCF4 /* LZCCameraAndPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C806C1CBCD9900007BCF4 /* LZCCameraAndPhotoTests.m */,
+				2A7C806E1CBCD9900007BCF4 /* Info.plist */,
+			);
+			path = LZCCameraAndPhotoTests;
+			sourceTree = "<group>";
+		};
+		2A7C80761CBCD9910007BCF4 /* LZCCameraAndPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7C80771CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.m */,
+				2A7C80791CBCD9910007BCF4 /* Info.plist */,
+			);
+			path = LZCCameraAndPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7C804E1CBCD9900007BCF4 /* LZCCameraAndPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7C807C1CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhoto" */;
+			buildPhases = (
+				2A7C804B1CBCD9900007BCF4 /* Sources */,
+				2A7C804C1CBCD9900007BCF4 /* Frameworks */,
+				2A7C804D1CBCD9900007BCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZCCameraAndPhoto;
+			productName = LZCCameraAndPhoto;
+			productReference = 2A7C804F1CBCD9900007BCF4 /* LZCCameraAndPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A7C80671CBCD9900007BCF4 /* LZCCameraAndPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7C807F1CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhotoTests" */;
+			buildPhases = (
+				2A7C80641CBCD9900007BCF4 /* Sources */,
+				2A7C80651CBCD9900007BCF4 /* Frameworks */,
+				2A7C80661CBCD9900007BCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7C806A1CBCD9900007BCF4 /* PBXTargetDependency */,
+			);
+			name = LZCCameraAndPhotoTests;
+			productName = LZCCameraAndPhotoTests;
+			productReference = 2A7C80681CBCD9900007BCF4 /* LZCCameraAndPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A7C80721CBCD9900007BCF4 /* LZCCameraAndPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7C80821CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhotoUITests" */;
+			buildPhases = (
+				2A7C806F1CBCD9900007BCF4 /* Sources */,
+				2A7C80701CBCD9900007BCF4 /* Frameworks */,
+				2A7C80711CBCD9900007BCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7C80751CBCD9910007BCF4 /* PBXTargetDependency */,
+			);
+			name = LZCCameraAndPhotoUITests;
+			productName = LZCCameraAndPhotoUITests;
+			productReference = 2A7C80731CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7C80471CBCD98F0007BCF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = trustway_mac;
+				TargetAttributes = {
+					2A7C804E1CBCD9900007BCF4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2A7C80671CBCD9900007BCF4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A7C804E1CBCD9900007BCF4;
+					};
+					2A7C80721CBCD9900007BCF4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2A7C804E1CBCD9900007BCF4;
+					};
+				};
+			};
+			buildConfigurationList = 2A7C804A1CBCD98F0007BCF4 /* Build configuration list for PBXProject "LZCCameraAndPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7C80461CBCD98F0007BCF4;
+			productRefGroup = 2A7C80501CBCD9900007BCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7C804E1CBCD9900007BCF4 /* LZCCameraAndPhoto */,
+				2A7C80671CBCD9900007BCF4 /* LZCCameraAndPhotoTests */,
+				2A7C80721CBCD9900007BCF4 /* LZCCameraAndPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7C804D1CBCD9900007BCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7C80621CBCD9900007BCF4 /* LaunchScreen.storyboard in Resources */,
+				2A7C805F1CBCD9900007BCF4 /* Assets.xcassets in Resources */,
+				2A7C805D1CBCD9900007BCF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C80661CBCD9900007BCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C80711CBCD9900007BCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7C804B1CBCD9900007BCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7C805A1CBCD9900007BCF4 /* ViewController.m in Sources */,
+				2A7C80571CBCD9900007BCF4 /* AppDelegate.m in Sources */,
+				2A7C80541CBCD9900007BCF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C80641CBCD9900007BCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7C806D1CBCD9900007BCF4 /* LZCCameraAndPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7C806F1CBCD9900007BCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7C80781CBCD9910007BCF4 /* LZCCameraAndPhotoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A7C806A1CBCD9900007BCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7C804E1CBCD9900007BCF4 /* LZCCameraAndPhoto */;
+			targetProxy = 2A7C80691CBCD9900007BCF4 /* PBXContainerItemProxy */;
+		};
+		2A7C80751CBCD9910007BCF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7C804E1CBCD9900007BCF4 /* LZCCameraAndPhoto */;
+			targetProxy = 2A7C80741CBCD9910007BCF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A7C805B1CBCD9900007BCF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7C805C1CBCD9900007BCF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A7C80601CBCD9900007BCF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7C80611CBCD9900007BCF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A7C807A1CBCD9910007BCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A7C807B1CBCD9910007BCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7C807D1CBCD9910007BCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZCCameraAndPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A7C807E1CBCD9910007BCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZCCameraAndPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A7C80801CBCD9910007BCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZCCameraAndPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCCameraAndPhoto.app/LZCCameraAndPhoto";
+			};
+			name = Debug;
+		};
+		2A7C80811CBCD9910007BCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZCCameraAndPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZCCameraAndPhoto.app/LZCCameraAndPhoto";
+			};
+			name = Release;
+		};
+		2A7C80831CBCD9910007BCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZCCameraAndPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZCCameraAndPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A7C80841CBCD9910007BCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZCCameraAndPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trustway.LZCCameraAndPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZCCameraAndPhoto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7C804A1CBCD98F0007BCF4 /* Build configuration list for PBXProject "LZCCameraAndPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7C807A1CBCD9910007BCF4 /* Debug */,
+				2A7C807B1CBCD9910007BCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7C807C1CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7C807D1CBCD9910007BCF4 /* Debug */,
+				2A7C807E1CBCD9910007BCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A7C807F1CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7C80801CBCD9910007BCF4 /* Debug */,
+				2A7C80811CBCD9910007BCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A7C80821CBCD9910007BCF4 /* Build configuration list for PBXNativeTarget "LZCCameraAndPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7C80831CBCD9910007BCF4 /* Debug */,
+				2A7C80841CBCD9910007BCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A7C80471CBCD98F0007BCF4 /* Project object */;
+}
